@@ -1,0 +1,32 @@
+Assets:
+  - Asset: 7527178168036972284
+    Path: Assets/Scenes/MainMenu.scene
+    Type: Scene
+    Version: 1
+  - Asset: 17759733921171388395
+    Path: Assets/Scenes/TestingScene.scene
+    Type: Scene
+    Version: 1
+  - Asset: 1268626868745604379
+    Path: Assets/DramBox/Materials/M_DefaultMaterial.smaterial
+    Type: Material
+    Version: 1
+  - Asset: 3956273168495549022
+    Path: Assets/DramBox/Meshes/Cube.stmesh
+    Type: StaticMesh
+    Version: 1
+  - Asset: 18216664727496990044
+    Path: Assets/DramBox/Meshes/Plane.stmesh
+    Type: StaticMesh
+    Version: 1
+  - Asset: 12190191313784016335
+    Path: Assets/DramBox/Meshes/Sphere.stmesh
+    Type: StaticMesh
+    Version: 1
+Asset Dependencies:
+  - AssetID: 3956273168495549022
+    Dependencies:
+      - Dependency: 1268626868745604379
+  - AssetID: 18216664727496990044
+    Dependencies:
+      - Dependency: 1268626868745604379

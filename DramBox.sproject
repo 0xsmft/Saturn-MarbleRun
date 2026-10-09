@@ -1,0 +1,49 @@
+Project:
+  Name: DramBox
+  StartupScene: 7527178168036972284
+  EdStartupScene: 17759733921171388395
+  DefaultMaterialAsset: 0
+  DefaultPhyMaterialAsset: 0
+  DefaultFontAsset: 0
+  DefaultPhysRegAsset: 0
+  ABCompressThreshold: 512
+  IsAutoSavesEnabled: true
+  AutoSaveInterval: 300
+  DeveloperVersion: D85AX
+  Online:
+    API: 0
+    Settings:
+      AppID: 0
+  ActionBindings:
+    - ActionBinding: Forward
+      ActionName: W
+      ID: 6155016919775992979
+      Key: 46
+      MouseButton: 46
+      Type: 0
+    - ActionBinding: Backward
+      ActionName: S
+      ID: 15405927496882206551
+      Key: 42
+      MouseButton: 42
+      Type: 0
+    - ActionBinding: Left
+      ActionName: A
+      ID: 9426230910157019236
+      Key: 24
+      MouseButton: 24
+      Type: 0
+    - ActionBinding: Right
+      ActionName: D
+      ID: 9972962007596706992
+      Key: 27
+      MouseButton: 27
+      Type: 0
+    - ActionBinding: Jump
+      ActionName: Space
+      ID: 4463093860514761102
+      Key: 60
+      MouseButton: 60
+      Type: 0
+  SoundGroups:
+    []

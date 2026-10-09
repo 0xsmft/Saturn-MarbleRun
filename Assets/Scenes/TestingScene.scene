@@ -1,0 +1,50 @@
+Scene: Untitled Scene
+Visualisation:
+  ShowGrid: true
+  ShowGridRT: false
+  PhysCollider: 2
+  AI: 0
+  Skel: 0
+Entities:
+  - Entity: 6370184688579675728
+    Class: Entity
+    TagComponent:
+      Tag: Directional Light
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [80, 10, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    DirectionalLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 1
+      CastShadows: true
+  - Entity: 6255670945037435885
+    Class: Entity
+    TagComponent:
+      Tag: Skylight
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    SkyLightComponent:
+      IsPreetham: true
+      Preetham Settings:
+        Turbidity: 2
+        Azimuth: 0
+        Inclination: 0

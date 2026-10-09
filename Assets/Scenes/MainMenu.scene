@@ -1,0 +1,9 @@
+Scene: Untitled Scene
+Visualisation:
+  ShowGrid: true
+  ShowGridRT: false
+  PhysCollider: 2
+  AI: 0
+  Skel: 0
+Entities:
+  []

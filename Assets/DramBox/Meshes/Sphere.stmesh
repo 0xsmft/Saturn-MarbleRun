@@ -1,0 +1,8 @@
+StaticMesh:
+  Filepath: Assets/DramBox/Meshes/Sphere.fbx
+  Attached Shape: 0
+  Physics Material ID: 0
+  Import Behaviour: 135
+  MaterialRegistry:
+    Materials:
+      - 0: 1268626868745604379
