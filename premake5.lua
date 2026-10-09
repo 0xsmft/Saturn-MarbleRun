@@ -149,9 +149,10 @@ project "DramBox"
 			runtime "Debug"
 			symbols "on"
 
-			debugcommand ( SaturnDir .. "/bin/Debug-macosx-AARCH64/Saturn-Editor/Saturn-Editor" )
-			debugargs { "%{wks.location}/%{prj.name}.sproject" }
-			debugdir ( SaturnDir .. "/Saturn-Editor" )
+			filter { "system:macosx", "configurations:Debug" }
+				debugcommand ( SaturnDir .. "/bin/Debug-macosx-AARCH64/Saturn-Editor/Saturn-Editor" )
+				debugargs { "%{wks.location}/%{prj.name}.sproject" }
+				debugdir ( SaturnDir .. "/Saturn-Editor" )
 
 			filter { "system:macosx", "configurations:Debug" }
 				buildcommands
@@ -176,9 +177,10 @@ project "DramBox"
 			runtime "Release"
 			optimize "on"
 
-			debugcommand ( SaturnDir .. "/bin/Release-macosx-AARCH64/Saturn-Editor/Saturn-Editor" )
-			debugargs    { "%{wks.location}/%{prj.name}.sproject" }
-			debugdir     ( SaturnDir .. "/Saturn-Editor" )
+			filter { "system:macosx", "configurations:Release" }
+				debugcommand ( SaturnDir .. "/bin/Release-macosx-AARCH64/Saturn-Editor/Saturn-Editor" )
+				debugargs    { "%{wks.location}/%{prj.name}.sproject" }
+				debugdir     ( SaturnDir .. "/Saturn-Editor" )
 
 			filter { "system:macosx", "configurations:Release" }
 				buildcommands

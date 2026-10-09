@@ -57,13 +57,13 @@ Entities:
       Properties:
         []
     TransformComponent:
-      Position: [-4.52590132, 10.7048321, -3.42257595]
+      Position: [-4.52553511, 10.7042885, -3.42208767]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
     RelationshipComponent:
       Parent: 0
       Children:
-        []
+        - ID: 11723368174770702567
     PrefabComponent:
       AssetID: 1718003025806917696
       EntityIDInPrefab: 8880377837913021337
@@ -120,3 +120,65 @@ Entities:
       BodyType: 0
       Mass: 2
       LockFlags: 0
+  - Entity: 9925017288416696210
+    Class: MovingPlatform
+    TagComponent:
+      Tag: MovingPlatformCI
+    ClassInformation:
+      LastPropertyCount: 3
+      Properties:
+        - Name: TravelDistance
+          ValueType: 1
+          Value: 10
+        - Name: TravelSpeed
+          ValueType: 1
+          Value: 2
+        - Name: ArrivalWaitTime
+          ValueType: 1
+          Value: 0.00999999978
+    TransformComponent:
+      Position: [1.29387391, 0.0517289639, -25.5390739]
+      Rotation: [0, 0, 0]
+      Scale: [8.69137287, 0.448509425, 6.63831329]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 16437226629472056460
+      EntityIDInPrefab: 6083330774966169485
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 3956273168495549022
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+    BoxColliderComponent:
+      Extents: [4.34568644, 0.224254712, 3.31915665]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 1
+      Mass: 2
+      LockFlags: 0
+  - Entity: 11723368174770702567
+    Class: Entity
+    TagComponent:
+      Tag: Camera
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0.604026794, 1.1105535]
+      Rotation: [-61.4913483, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 10276214942873285123
+      Children:
+        []
+    CameraComponent:
+      MainCamera: true
