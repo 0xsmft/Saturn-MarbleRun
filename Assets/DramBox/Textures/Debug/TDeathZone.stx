@@ -1,0 +1,8 @@
+Texture:
+  Width: 1024
+  Height: 1024
+  Channels: 4
+  Hdr: false
+  Flags: 1
+  FilteringFlags: 0
+  Source Path: Assets/DramBox/Textures/Debug/DZ.png

@@ -1,0 +1,6 @@
+PhysicsSurfaceRegistry:
+  Count: 3
+  Names:
+    - Name: Floor
+    - Name: GrassFloor
+    - Name: MetalFloor
