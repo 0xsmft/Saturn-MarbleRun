@@ -1,10 +1,10 @@
 -- Game Project premake template.
--- __PROJECT_NAME__
+-- DramBox
 
-workspace "__PROJECT_NAME__"
+workspace "DramBox"
 	-- This doesnt effect the output binary.
 	architecture "x64"
-	startproject "__PROJECT_NAME__"
+	startproject "DramBox"
 
 	configurations { "Debug", "Release", "Dist" }
 
@@ -42,9 +42,9 @@ project "Saturn"
 		SaturnDir .. "/Saturn/src/**.mm",
 	}
 
--- __PROJECT_NAME__
+-- DramBox
 group "Game"
-project "__PROJECT_NAME__"
+project "DramBox"
 	kind "Makefile"
 	language "C++"
 	cppdialect "C++23"

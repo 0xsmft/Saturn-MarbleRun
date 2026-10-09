@@ -1,0 +1,49 @@
+# WARNING, MODIFICATIONS TO THIS FILE WILL NOT UPDATE GLOBALLY IN EDITOR!
+Prefab: 1718003025806917696
+Root Entity: 8880377837913021337
+Entities:
+  - Entity: 8880377837913021337
+    Class: Player
+    TagComponent:
+      Tag: PlayerCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, -3.53753567e-05, 1.46925449e-05]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 1718003025806917696
+      EntityIDInPrefab: 8880377837913021337
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 12190191313784016335
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+    SphereColliderComponent:
+      Radius: 0.600000024
+      Offset: [0, 0, 0]
+      IsTrigger: false
+    CharacterMovementComponent:
+      StepOffset: 0.300000012
+      NoGravity: false
+      ControlMovementInAir: false
+      ControlRotationInAir: false
+    AudioListenerComponent:
+      Primary: false
+      Direction: [0, 0, -1]
+      ConeInner: 0
+      ConeOuter: 0
+ComponentCache:
+  - EntityID: 8880377837913021337
+    Count: 9
+    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 2063085065, 1439163018, 1232949942]
