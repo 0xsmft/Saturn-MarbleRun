@@ -1,0 +1,9 @@
+StaticMesh:
+  Filepath: Assets/DramBox/Meshes/Spinner.glb
+  Attached Shape: 5
+  Physics Material ID: 0
+  Import Behaviour: 135
+  MaterialRegistry:
+    Materials:
+      - 0: 1268626868745604379
+      - 1: 1268626868745604379

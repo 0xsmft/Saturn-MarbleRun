@@ -137,7 +137,7 @@ Entities:
           ValueType: 1
           Value: 0.00999999978
     TransformComponent:
-      Position: [1.29387391, 0.0517289639, -25.5390739]
+      Position: [1.29321945, 0.0517289639, -25.5390739]
       Rotation: [0, 0, 0]
       Scale: [8.69137287, 0.448509425, 6.63831329]
     RelationshipComponent:
@@ -182,3 +182,62 @@ Entities:
         []
     CameraComponent:
       MainCamera: true
+  - Entity: 5500289159792327522
+    Class: SpinningObstacle
+    TagComponent:
+      Tag: SpinningObstacleCI
+    ClassInformation:
+      LastPropertyCount: 1
+      Properties:
+        - Name: RotationSpeed
+          ValueType: 1
+          Value: 10
+    TransformComponent:
+      Position: [-7.16948891, 1.28294122, -10.8060589]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 6998695237874706194
+      EntityIDInPrefab: 11156330780195403735
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 18216664727496990044
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+    BoxColliderComponent:
+      Extents: [0.5, 0.5, 0.5]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: false
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
+  - Entity: 1408051840966362328
+    Class: GameState
+    TagComponent:
+      Tag: GameStateCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, -17.2562199, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 3597625131118900294
+      EntityIDInPrefab: 8587582154100024490
+      Flags: 0
+      Modified: false

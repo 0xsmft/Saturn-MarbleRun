@@ -3,9 +3,17 @@ Assets:
     Path: Assets/Scenes/MainMenu.scene
     Type: Scene
     Version: 1
+  - Asset: 8370908130371564264
+    Path: Assets/DramBox/Phys/PSR_Main.spsr
+    Type: PhysSurfaceRegistry
+    Version: 1
   - Asset: 17759733921171388395
     Path: Assets/Scenes/TestingScene.scene
     Type: Scene
+    Version: 1
+  - Asset: 9871295567506991369
+    Path: Assets/DramBox/Phys/PM_Floor.sphymaterial
+    Type: PhysicsMaterial
     Version: 1
   - Asset: 1268626868745604379
     Path: Assets/DramBox/Materials/M_DefaultMaterial.smaterial
@@ -15,9 +23,21 @@ Assets:
     Path: Assets/DramBox/Meshes/Cube.stmesh
     Type: StaticMesh
     Version: 1
+  - Asset: 16488376441854077476
+    Path: Assets/DramBox/Materials/M_SpinnerSecondPart.smaterial
+    Type: Material
+    Version: 1
   - Asset: 18216664727496990044
     Path: Assets/DramBox/Meshes/Plane.stmesh
     Type: StaticMesh
+    Version: 1
+  - Asset: 1778297139817990339
+    Path: Assets/DramBox/Textures/Debug/T_RedPrototype_1x1.stx
+    Type: Texture
+    Version: 1
+  - Asset: 5043029538169155229
+    Path: Assets/DramBox/Materials/M_SpinnerFirstPart.smaterial
+    Type: Material
     Version: 1
   - Asset: 12190191313784016335
     Path: Assets/DramBox/Meshes/Sphere.stmesh
@@ -27,14 +47,40 @@ Assets:
     Path: Assets/DramBox/Objects/MovingPlatformCI.prefab
     Type: Prefab
     Version: 1
+  - Asset: 17301695043271348194
+    Path: Assets/DramBox/Phys/PM_Sphere.sphymaterial
+    Type: PhysicsMaterial
+    Version: 1
+  - Asset: 6740557664525758784
+    Path: Assets/DramBox/Textures/Debug/TDeathZone.stx
+    Type: Texture
+    Version: 1
   - Asset: 6998695237874706194
     Path: Assets/DramBox/Objects/SpinningObstacleCI.prefab
     Type: Prefab
+    Version: 1
+  - Asset: 1718003025806917696
+    Path: Assets/DramBox/Player/PlayerCI.prefab
+    Type: Prefab
+    Version: 1
+  - Asset: 3597625131118900294
+    Path: Assets/DramBox/GameStateCI.prefab
+    Type: Prefab
+    Version: 1
+  - Asset: 12938012628514451478
+    Path: Assets/DramBox/Meshes/Spinner.stmesh
+    Type: StaticMesh
     Version: 1
 Asset Dependencies:
   - AssetID: 3956273168495549022
     Dependencies:
       - Dependency: 1268626868745604379
   - AssetID: 18216664727496990044
+    Dependencies:
+      - Dependency: 1268626868745604379
+  - AssetID: 12190191313784016335
+    Dependencies:
+      - Dependency: 1268626868745604379
+  - AssetID: 12938012628514451478
     Dependencies:
       - Dependency: 1268626868745604379
