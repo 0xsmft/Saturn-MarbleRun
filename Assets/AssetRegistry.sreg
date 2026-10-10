@@ -23,6 +23,10 @@ Assets:
     Path: Assets/DramBox/Meshes/Sphere.stmesh
     Type: StaticMesh
     Version: 1
+  - Asset: 6998695237874706194
+    Path: Assets/DramBox/Objects/SpinningObstacleCI.prefab
+    Type: Prefab
+    Version: 1
 Asset Dependencies:
   - AssetID: 3956273168495549022
     Dependencies:
