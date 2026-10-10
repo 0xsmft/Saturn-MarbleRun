@@ -1,0 +1,27 @@
+# WARNING, MODIFICATIONS TO THIS FILE WILL NOT UPDATE GLOBALLY IN EDITOR!
+Prefab: 3597625131118900294
+Root Entity: 8587582154100024490
+Entities:
+  - Entity: 8587582154100024490
+    Class: GameState
+    TagComponent:
+      Tag: GameStateCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 3597625131118900294
+      EntityIDInPrefab: 8587582154100024490
+      Flags: 0
+      Modified: false
+ComponentCache:
+  []
