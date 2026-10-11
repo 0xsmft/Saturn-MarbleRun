@@ -26,21 +26,17 @@ Entities:
       Flags: 0
       Modified: false
     MeshComponent:
-      Asset: 18216664727496990044
+      Asset: 12938012628514451478
       MaterialRegistry:
         AnyOverrides: false
         MaterialOverrides:
           - 0: 0
-    BoxColliderComponent:
-      Extents: [0.5, 0.5, 0.5]
-      Offset: [0, 0, 0]
-      IsTrigger: false
-      AutoAdjustExtent: false
+          - 1: 0
     RigidbodyComponent:
       BodyType: 0
       Mass: 2
       LockFlags: 0
 ComponentCache:
   - EntityID: 11156330780195403735
-    Count: 8
-    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 2683212539, 1605021125]
+    Count: 7
+    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 1605021125]

@@ -182,44 +182,6 @@ Entities:
         []
     CameraComponent:
       MainCamera: true
-  - Entity: 5500289159792327522
-    Class: SpinningObstacle
-    TagComponent:
-      Tag: SpinningObstacleCI
-    ClassInformation:
-      LastPropertyCount: 1
-      Properties:
-        - Name: RotationSpeed
-          ValueType: 1
-          Value: 10
-    TransformComponent:
-      Position: [-7.16948891, 1.28294122, -10.8060589]
-      Rotation: [0, 0, 0]
-      Scale: [1, 1, 1]
-    RelationshipComponent:
-      Parent: 0
-      Children:
-        []
-    PrefabComponent:
-      AssetID: 6998695237874706194
-      EntityIDInPrefab: 11156330780195403735
-      Flags: 0
-      Modified: false
-    MeshComponent:
-      Asset: 18216664727496990044
-      MaterialRegistry:
-        AnyOverrides: false
-        MaterialOverrides:
-          - 0: 0
-    BoxColliderComponent:
-      Extents: [0.5, 0.5, 0.5]
-      Offset: [0, 0, 0]
-      IsTrigger: false
-      AutoAdjustExtent: false
-    RigidbodyComponent:
-      BodyType: 0
-      Mass: 2
-      LockFlags: 0
   - Entity: 1408051840966362328
     Class: GameState
     TagComponent:
@@ -241,3 +203,37 @@ Entities:
       EntityIDInPrefab: 8587582154100024490
       Flags: 0
       Modified: false
+  - Entity: 13319261661467165738
+    Class: SpinningObstacle
+    TagComponent:
+      Tag: SpinningObstacleCI
+    ClassInformation:
+      LastPropertyCount: 1
+      Properties:
+        - Name: RotationSpeed
+          ValueType: 1
+          Value: 1
+    TransformComponent:
+      Position: [-9.33249378, 1.64108825, -4.12970018]
+      Rotation: [359.999939, 89.3713074, 359.999939]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 6998695237874706194
+      EntityIDInPrefab: 11156330780195403735
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 12938012628514451478
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+          - 1: 0
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
