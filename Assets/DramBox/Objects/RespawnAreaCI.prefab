@@ -1,0 +1,38 @@
+# WARNING, MODIFICATIONS TO THIS FILE WILL NOT UPDATE GLOBALLY IN EDITOR!
+Prefab: 13250032905671039705
+Root Entity: 10234404517968713747
+Entities:
+  - Entity: 10234404517968713747
+    Class: RespawnArea
+    TagComponent:
+      Tag: RespawnAreaCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 13250032905671039705
+      EntityIDInPrefab: 10234404517968713747
+      Flags: 0
+      Modified: false
+    BoxColliderComponent:
+      Extents: [0.5, 0.5, 0.5]
+      Offset: [0, 0, 0]
+      IsTrigger: true
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 2
+      Mass: 2
+      LockFlags: 63
+ComponentCache:
+  - EntityID: 10234404517968713747
+    Count: 7
+    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 2683212539, 1605021125]
