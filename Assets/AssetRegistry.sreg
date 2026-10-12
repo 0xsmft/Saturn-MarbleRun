@@ -71,6 +71,18 @@ Assets:
     Path: Assets/DramBox/Meshes/Spinner.stmesh
     Type: StaticMesh
     Version: 1
+  - Asset: 17514045597335002333
+    Path: Assets/DramBox/Meshes/Checkpoint.stmesh
+    Type: StaticMesh
+    Version: 1
+  - Asset: 9183886020969460800
+    Path: Assets/DramBox/Objects/CheckpointCI.prefab
+    Type: Prefab
+    Version: 1
+  - Asset: 10111141270125214441
+    Path: Assets/DramBox/Materials/M_Checkpoint.smaterial
+    Type: Material
+    Version: 1
 Asset Dependencies:
   - AssetID: 3956273168495549022
     Dependencies:
@@ -79,6 +91,9 @@ Asset Dependencies:
     Dependencies:
       - Dependency: 1268626868745604379
   - AssetID: 12190191313784016335
+    Dependencies:
+      - Dependency: 1268626868745604379
+  - AssetID: 17514045597335002333
     Dependencies:
       - Dependency: 1268626868745604379
   - AssetID: 12938012628514451478

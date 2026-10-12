@@ -1,0 +1,44 @@
+# WARNING, MODIFICATIONS TO THIS FILE WILL NOT UPDATE GLOBALLY IN EDITOR!
+Prefab: 9183886020969460800
+Root Entity: 3645265407261767697
+Entities:
+  - Entity: 3645265407261767697
+    Class: Checkpoint
+    TagComponent:
+      Tag: CheckpointCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 9183886020969460800
+      EntityIDInPrefab: 3645265407261767697
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 17514045597335002333
+      MaterialRegistry:
+        AnyOverrides: true
+        MaterialOverrides:
+          - 0: 10111141270125214441
+    BoxColliderComponent:
+      Extents: [0.899999976, 0.5, 1]
+      Offset: [0, 0.5, 0]
+      IsTrigger: true
+      AutoAdjustExtent: false
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
+ComponentCache:
+  - EntityID: 3645265407261767697
+    Count: 8
+    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 2683212539, 1605021125]

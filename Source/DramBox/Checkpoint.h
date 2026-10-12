@@ -23,4 +23,6 @@ public:
 	virtual	void OnPhysicsUpdate( Saturn::Timestep ts ) override;
 	virtual void OnEntityHit( Entity* pOther, bool isTrigger ) override;
 
+private:
+	WeakRef<class GameState> m_GameState;
 };
