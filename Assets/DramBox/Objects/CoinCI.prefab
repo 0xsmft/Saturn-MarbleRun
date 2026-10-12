@@ -1,0 +1,45 @@
+# WARNING, MODIFICATIONS TO THIS FILE WILL NOT UPDATE GLOBALLY IN EDITOR!
+Prefab: 4228469762631236977
+Root Entity: 1658372801052801310
+Entities:
+  - Entity: 1658372801052801310
+    Class: Coin
+    TagComponent:
+      Tag: CoinCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 4228469762631236977
+      EntityIDInPrefab: 1658372801052801310
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 3429563546834485213
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+          - 1: 0
+    BoxColliderComponent:
+      Extents: [0.200000003, 0.200000003, 0.200000003]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: false
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
+ComponentCache:
+  - EntityID: 1658372801052801310
+    Count: 8
+    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 2683212539, 1605021125]
