@@ -21,6 +21,8 @@ public:
 	virtual void OnUpdate( Timestep ts ) override;
 	virtual void OnPhysicsUpdate( Timestep ts ) override;
 
+public:
+	void OnJump();
 protected:
 	virtual void SetupInputBindings() override;
 
