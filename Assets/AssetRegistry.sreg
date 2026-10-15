@@ -3,13 +3,17 @@ Assets:
     Path: Assets/Scenes/MainMenu.scene
     Type: Scene
     Version: 1
-  - Asset: 8370908130371564264
-    Path: Assets/DramBox/Phys/PSR_Main.spsr
-    Type: PhysSurfaceRegistry
+  - Asset: 4696896582006652746
+    Path: Assets/DramBox/Materials/M_Prototype.smaterial
+    Type: Material
     Version: 1
   - Asset: 17759733921171388395
     Path: Assets/Scenes/TestingScene.scene
     Type: Scene
+    Version: 1
+  - Asset: 8370908130371564264
+    Path: Assets/DramBox/Phys/PSR_Main.spsr
+    Type: PhysSurfaceRegistry
     Version: 1
   - Asset: 9871295567506991369
     Path: Assets/DramBox/Phys/PM_Floor.sphymaterial
@@ -18,6 +22,10 @@ Assets:
   - Asset: 1268626868745604379
     Path: Assets/DramBox/Materials/M_DefaultMaterial.smaterial
     Type: Material
+    Version: 1
+  - Asset: 13250032905671039705
+    Path: Assets/DramBox/Objects/RespawnAreaCI.prefab
+    Type: Prefab
     Version: 1
   - Asset: 3956273168495549022
     Path: Assets/DramBox/Meshes/Cube.stmesh
@@ -31,33 +39,33 @@ Assets:
     Path: Assets/DramBox/Meshes/Plane.stmesh
     Type: StaticMesh
     Version: 1
-  - Asset: 1778297139817990339
-    Path: Assets/DramBox/Textures/Debug/T_RedPrototype_1x1.stx
-    Type: Texture
-    Version: 1
   - Asset: 5043029538169155229
     Path: Assets/DramBox/Materials/M_SpinnerFirstPart.smaterial
     Type: Material
+    Version: 1
+  - Asset: 1778297139817990339
+    Path: Assets/DramBox/Textures/Debug/T_RedPrototype_1x1.stx
+    Type: Texture
     Version: 1
   - Asset: 12190191313784016335
     Path: Assets/DramBox/Meshes/Sphere.stmesh
     Type: StaticMesh
     Version: 1
-  - Asset: 16437226629472056460
-    Path: Assets/DramBox/Objects/MovingPlatformCI.prefab
-    Type: Prefab
-    Version: 1
   - Asset: 17301695043271348194
     Path: Assets/DramBox/Phys/PM_Sphere.sphymaterial
     Type: PhysicsMaterial
     Version: 1
-  - Asset: 6740557664525758784
-    Path: Assets/DramBox/Textures/Debug/TDeathZone.stx
-    Type: Texture
+  - Asset: 16437226629472056460
+    Path: Assets/DramBox/Objects/MovingPlatformCI.prefab
+    Type: Prefab
     Version: 1
   - Asset: 6998695237874706194
     Path: Assets/DramBox/Objects/SpinningObstacleCI.prefab
     Type: Prefab
+    Version: 1
+  - Asset: 6740557664525758784
+    Path: Assets/DramBox/Textures/Debug/TDeathZone.stx
+    Type: Texture
     Version: 1
   - Asset: 1718003025806917696
     Path: Assets/DramBox/Player/PlayerCI.prefab
@@ -83,6 +91,22 @@ Assets:
     Path: Assets/DramBox/Materials/M_Checkpoint.smaterial
     Type: Material
     Version: 1
+  - Asset: 3429563546834485213
+    Path: Assets/DramBox/Meshes/Coin.stmesh
+    Type: StaticMesh
+    Version: 1
+  - Asset: 12790284770618039779
+    Path: Assets/DramBox/Materials/M_Coin.smaterial
+    Type: Material
+    Version: 1
+  - Asset: 4228469762631236977
+    Path: Assets/DramBox/Objects/CoinCI.prefab
+    Type: Prefab
+    Version: 1
+  - Asset: 7148292407922401748
+    Path: Assets/Scenes/LevelOne.scene
+    Type: Scene
+    Version: 1
 Asset Dependencies:
   - AssetID: 3956273168495549022
     Dependencies:
@@ -96,6 +120,14 @@ Asset Dependencies:
   - AssetID: 17514045597335002333
     Dependencies:
       - Dependency: 1268626868745604379
+      - Dependency: 10111141270125214441
   - AssetID: 12938012628514451478
     Dependencies:
       - Dependency: 1268626868745604379
+  - AssetID: 3429563546834485213
+    Dependencies:
+      - Dependency: 1268626868745604379
+      - Dependency: 12790284770618039779
+  - AssetID: 4696896582006652746
+    Dependencies:
+      - Dependency: 1778297139817990339

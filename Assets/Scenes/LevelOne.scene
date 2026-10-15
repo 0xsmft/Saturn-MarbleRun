@@ -1,0 +1,407 @@
+Scene: Untitled Scene
+Visualisation:
+  ShowGrid: true
+  ShowGridRT: false
+  PhysCollider: 2
+  AI: 0
+  Skel: 0
+Entities:
+  - Entity: 15686364235062490834
+    Class: Entity
+    TagComponent:
+      Tag: Directional Light
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [80, 10, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    DirectionalLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 1
+      CastShadows: true
+  - Entity: 11675636840174716806
+    Class: Entity
+    TagComponent:
+      Tag: Skylight
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    SkyLightComponent:
+      IsPreetham: true
+      Preetham Settings:
+        Turbidity: 2
+        Azimuth: 0
+        Inclination: 0
+  - Entity: 6838545445627548192
+    Class: GameState
+    TagComponent:
+      Tag: GameStateCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 3597625131118900294
+      EntityIDInPrefab: 8587582154100024490
+      Flags: 0
+      Modified: false
+  - Entity: 16476759770306362243
+    Class: RespawnArea
+    TagComponent:
+      Tag: RespawnAreaCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, -32, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1024, 1, 1024]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 13250032905671039705
+      EntityIDInPrefab: 10234404517968713747
+      Flags: 0
+      Modified: false
+    BoxColliderComponent:
+      Extents: [512, 0.5, 512]
+      Offset: [0, 0, 0]
+      IsTrigger: true
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 63
+  - Entity: 8778455670632570887
+    Class: Entity
+    TagComponent:
+      Tag: Area 2
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, -84.3859863]
+      Rotation: [0, 0, 0]
+      Scale: [23.8930187, 0.780622542, 21.2205486]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    MeshComponent:
+      Asset: 3956273168495549022
+      MaterialRegistry:
+        AnyOverrides: true
+        MaterialOverrides:
+          - 0: 4696896582006652746
+    BoxColliderComponent:
+      Extents: [11.9465094, 0.390311271, 10.6102743]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
+  - Entity: 16633594217109792028
+    Class: Entity
+    TagComponent:
+      Tag: Checkpoint
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0.416987658, -84.6672211]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    MeshComponent:
+      Asset: 17514045597335002333
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+  - Entity: 8760636842966196307
+    Class: MovingPlatform
+    TagComponent:
+      Tag: MovingPlatformCI
+    ClassInformation:
+      LastPropertyCount: 3
+      Properties:
+        - Name: TravelDistance
+          ValueType: 1
+          Value: 2.5
+        - Name: TravelSpeed
+          ValueType: 1
+          Value: 2
+        - Name: ArrivalWaitTime
+          ValueType: 1
+          Value: 5
+    TransformComponent:
+      Position: [0.114470005, 0.0272784829, -57.5479126]
+      Rotation: [0, 0, 0]
+      Scale: [14.2474804, 0.368782699, 9.93468857]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 16437226629472056460
+      EntityIDInPrefab: 6083330774966169485
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 3956273168495549022
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+    BoxColliderComponent:
+      Extents: [7.1237402, 0.18439135, 4.96734428]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 1
+      Mass: 2
+      LockFlags: 0
+  - Entity: 1782103442815298108
+    Class: Entity
+    TagComponent:
+      Tag: Spawning Area
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [23.8930187, 0.780622542, 21.2205486]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    MeshComponent:
+      Asset: 3956273168495549022
+      MaterialRegistry:
+        AnyOverrides: true
+        MaterialOverrides:
+          - 0: 4696896582006652746
+    BoxColliderComponent:
+      Extents: [11.9465094, 0.390311271, 10.6102743]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
+  - Entity: 15716449162811130835
+    Class: MovingPlatform
+    TagComponent:
+      Tag: MovingPlatformCI
+    ClassInformation:
+      LastPropertyCount: 3
+      Properties:
+        - Name: TravelDistance
+          ValueType: 1
+          Value: 2.5
+        - Name: TravelSpeed
+          ValueType: 1
+          Value: 2
+        - Name: ArrivalWaitTime
+          ValueType: 1
+          Value: 5
+    TransformComponent:
+      Position: [0.114470005, 0.0272784829, -19.8975258]
+      Rotation: [0, 0, 0]
+      Scale: [14.2474804, 0.368782699, 9.93468857]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 16437226629472056460
+      EntityIDInPrefab: 6083330774966169485
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 3956273168495549022
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+    BoxColliderComponent:
+      Extents: [7.1237402, 0.18439135, 4.96734428]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 1
+      Mass: 2
+      LockFlags: 0
+  - Entity: 12132483726759450532
+    Class: Entity
+    TagComponent:
+      Tag: Area 2
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0, -41.8228645]
+      Rotation: [0, 0, 0]
+      Scale: [23.8930187, 0.780622542, 21.2205486]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    MeshComponent:
+      Asset: 3956273168495549022
+      MaterialRegistry:
+        AnyOverrides: true
+        MaterialOverrides:
+          - 0: 4696896582006652746
+    BoxColliderComponent:
+      Extents: [11.9465094, 0.390311271, 10.6102743]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 0
+  - Entity: 9960220294619120117
+    Class: Entity
+    TagComponent:
+      Tag: Checkpoint
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0.416987658, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    MeshComponent:
+      Asset: 17514045597335002333
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+  - Entity: 2064156365812117574
+    Class: Entity
+    TagComponent:
+      Tag: Checkpoint
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 0.416987658, -41.8196106]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    MeshComponent:
+      Asset: 17514045597335002333
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+  - Entity: 16866718018531591721
+    Class: Player
+    TagComponent:
+      Tag: PlayerCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 1.17999995, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        - ID: 1365422702568204397
+    PrefabComponent:
+      AssetID: 1718003025806917696
+      EntityIDInPrefab: 8880377837913021337
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 12190191313784016335
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+    SphereColliderComponent:
+      Radius: 0.600000024
+      Offset: [0, 0, 0]
+      IsTrigger: false
+    CharacterMovementComponent:
+      StepOffset: 0.300000012
+      NoGravity: false
+      ControlMovementInAir: false
+      ControlRotationInAir: false
+    AudioListenerComponent:
+      Primary: false
+      Direction: [0, 0, -1]
+      ConeInner: 0
+      ConeOuter: 0
+  - Entity: 1365422702568204397
+    Class: Entity
+    TagComponent:
+      Tag: Camera
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, 1.8421098, 2.13691306]
+      Rotation: [-82.1089783, -39.3962784, 11.2334938]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 16866718018531591721
+      Children:
+        []
+    CameraComponent:
+      MainCamera: true
