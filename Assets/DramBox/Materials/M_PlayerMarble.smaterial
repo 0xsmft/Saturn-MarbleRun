@@ -1,0 +1,13 @@
+Material:
+  AlbedoColor: [1, 1, 1]
+  AlbedoTexture: 15601625855766630948
+  UseNormal: false
+  NormalTexture: 3699033451491579775
+  Metalness: 1
+  MetalnessTexture: 6877697926733809214
+  Roughness: 1
+  RoughnessTexture: 16640388542381809475
+  Emissive: 0
+  ShaderSource:
+    Type: 0
+    AssetID: 0

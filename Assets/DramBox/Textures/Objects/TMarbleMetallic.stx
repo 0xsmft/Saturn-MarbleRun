@@ -1,0 +1,8 @@
+Texture:
+  Width: 2048
+  Height: 2048
+  Channels: 4
+  Hdr: false
+  Flags: 1
+  FilteringFlags: 0
+  Source Path: Assets/DramBox/Textures/Objects/white-marble_metallic.png

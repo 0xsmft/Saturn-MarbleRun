@@ -2,7 +2,7 @@ Scene: Untitled Scene
 Visualisation:
   ShowGrid: true
   ShowGridRT: false
-  PhysCollider: 2
+  PhysCollider: 1
   AI: 0
   Skel: 0
 Entities:
@@ -48,47 +48,6 @@ Entities:
         Turbidity: 2
         Azimuth: 0
         Inclination: 0
-  - Entity: 10276214942873285123
-    Class: Player
-    TagComponent:
-      Tag: PlayerCI
-    ClassInformation:
-      LastPropertyCount: 0
-      Properties:
-        []
-    TransformComponent:
-      Position: [-4.52553511, 10.7042885, -3.42208767]
-      Rotation: [0, 0, 0]
-      Scale: [1, 1, 1]
-    RelationshipComponent:
-      Parent: 0
-      Children:
-        - ID: 11723368174770702567
-    PrefabComponent:
-      AssetID: 1718003025806917696
-      EntityIDInPrefab: 8880377837913021337
-      Flags: 0
-      Modified: false
-    MeshComponent:
-      Asset: 12190191313784016335
-      MaterialRegistry:
-        AnyOverrides: false
-        MaterialOverrides:
-          - 0: 0
-    SphereColliderComponent:
-      Radius: 0.600000024
-      Offset: [0, 0, 0]
-      IsTrigger: false
-    CharacterMovementComponent:
-      StepOffset: 0.300000012
-      NoGravity: false
-      ControlMovementInAir: false
-      ControlRotationInAir: false
-    AudioListenerComponent:
-      Primary: false
-      Direction: [0, 0, -1]
-      ConeInner: 0
-      ConeOuter: 0
   - Entity: 13432884645452720467
     Class: Entity
     TagComponent:
@@ -112,10 +71,10 @@ Entities:
         MaterialOverrides:
           - 0: 0
     BoxColliderComponent:
-      Extents: [0.5, 0.5, 0.5]
+      Extents: [13.1102438, 0.202588186, 10.5911226]
       Offset: [0, 0, 0]
       IsTrigger: false
-      AutoAdjustExtent: false
+      AutoAdjustExtent: true
     RigidbodyComponent:
       BodyType: 0
       Mass: 2
@@ -164,24 +123,6 @@ Entities:
       BodyType: 1
       Mass: 2
       LockFlags: 0
-  - Entity: 11723368174770702567
-    Class: Entity
-    TagComponent:
-      Tag: Camera
-    ClassInformation:
-      LastPropertyCount: 0
-      Properties:
-        []
-    TransformComponent:
-      Position: [0, 0.604026794, 1.1105535]
-      Rotation: [-61.4913483, 0, 0]
-      Scale: [1, 1, 1]
-    RelationshipComponent:
-      Parent: 10276214942873285123
-      Children:
-        []
-    CameraComponent:
-      MainCamera: true
   - Entity: 1408051840966362328
     Class: GameState
     TagComponent:
@@ -246,7 +187,7 @@ Entities:
       Properties:
         []
     TransformComponent:
-      Position: [-2.2173481, 0.643777609, -7.14091587]
+      Position: [0, 0.63696593, 0]
       Rotation: [0, 0, 0]
       Scale: [1, 1, 1]
     RelationshipComponent:
@@ -273,3 +214,74 @@ Entities:
       BodyType: 0
       Mass: 2
       LockFlags: 0
+  - Entity: 5382398880113583349
+    Class: RespawnArea
+    TagComponent:
+      Tag: RespawnAreaCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [0, -24, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1024, 1, 1024]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 13250032905671039705
+      EntityIDInPrefab: 10234404517968713747
+      Flags: 0
+      Modified: false
+    BoxColliderComponent:
+      Extents: [512, 0.5, 512]
+      Offset: [0, 0, 0]
+      IsTrigger: true
+      AutoAdjustExtent: true
+    RigidbodyComponent:
+      BodyType: 0
+      Mass: 2
+      LockFlags: 63
+  - Entity: 11473404755844805196
+    Class: Player
+    TagComponent:
+      Tag: PlayerCI
+    ClassInformation:
+      LastPropertyCount: 0
+      Properties:
+        []
+    TransformComponent:
+      Position: [-0.0405150056, 1.43424821, -0.0541134626]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 1718003025806917696
+      EntityIDInPrefab: 8880377837913021337
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 12190191313784016335
+      MaterialRegistry:
+        AnyOverrides: true
+        MaterialOverrides:
+          - 0: 13453005120588140788
+    SphereColliderComponent:
+      Radius: 0.50999999
+      Offset: [0, 0, 0]
+      IsTrigger: false
+    CharacterMovementComponent:
+      StepOffset: 0.300000012
+      NoGravity: false
+      ControlMovementInAir: false
+      ControlRotationInAir: false
+    AudioListenerComponent:
+      Primary: false
+      Direction: [0, 0, -1]
+      ConeInner: 0
+      ConeOuter: 0
