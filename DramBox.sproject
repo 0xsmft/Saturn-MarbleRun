@@ -39,7 +39,7 @@ Project:
       Key: 27
       MouseButton: 27
       Type: 0
-    - ActionBinding: Jump
+    - ActionBinding: ImpulseJump
       ActionName: Space
       ID: 4463093860514761102
       Key: 60
