@@ -1,6 +1,10 @@
 #include "sppch.h"
 #include "Player.h"
 
+#include "Saturn/Scene/Scene.h"
+
+#include "GameState.h"
+
 Player::Player()
 {
 }

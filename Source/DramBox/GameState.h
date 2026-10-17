@@ -24,6 +24,7 @@ public:
 
 public:
 	void SetSpawningLocation( const glm::vec3& rLocation ) { m_PlayerSpawnLocation = rLocation; }
+	const glm::vec3 GetCheckpointLocation() const { return m_PlayerSpawnLocation; }
 
 private:
 	// Checkpoint location in which the player will spawn if they

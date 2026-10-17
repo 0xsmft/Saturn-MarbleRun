@@ -23,6 +23,10 @@ public:
 
 public:
 	void OnJump();
+
+public:
+	void RespawnAtCheckpoint();
+
 protected:
 	virtual void SetupInputBindings() override;
 
