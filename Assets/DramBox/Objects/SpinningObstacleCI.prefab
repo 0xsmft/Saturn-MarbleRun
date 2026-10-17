@@ -32,11 +32,16 @@ Entities:
         MaterialOverrides:
           - 0: 0
           - 1: 0
+    BoxColliderComponent:
+      Extents: [3.83999991, 1.03999996, 0.610000014]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: false
     RigidbodyComponent:
-      BodyType: 0
+      BodyType: 2
       Mass: 2
-      LockFlags: 0
+      LockFlags: 63
 ComponentCache:
   - EntityID: 11156330780195403735
-    Count: 7
-    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 1605021125]
+    Count: 8
+    Hashes: [1802789876, 3247511416, 783184665, 3877905976, 2213423580, 730933875, 2683212539, 1605021125]

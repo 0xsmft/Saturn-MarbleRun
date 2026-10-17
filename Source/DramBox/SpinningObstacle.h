@@ -9,6 +9,8 @@
 
 using namespace Saturn;
 
+class Saturn::PhysicsRigidBody;
+
 SCLASS( VisibleInEditor )
 class SpinningObstacle : public Entity
 {
@@ -28,5 +30,7 @@ public:
 	virtual void OnPhysicsUpdate( Saturn::Timestep ts ) override;
 
 private:
+	PhysicsRigidBody* m_pRigidBody = nullptr;
+
 	float m_LastYRotation = 0.0f;
 };
