@@ -2,7 +2,7 @@ Scene: Untitled Scene
 Visualisation:
   ShowGrid: true
   ShowGridRT: false
-  PhysCollider: 1
+  PhysCollider: 0
   AI: 0
   Skel: 0
 Entities:
@@ -79,50 +79,6 @@ Entities:
       BodyType: 0
       Mass: 2
       LockFlags: 0
-  - Entity: 9925017288416696210
-    Class: MovingPlatform
-    TagComponent:
-      Tag: MovingPlatformCI
-    ClassInformation:
-      LastPropertyCount: 3
-      Properties:
-        - Name: TravelDistance
-          ValueType: 1
-          Value: 10
-        - Name: TravelSpeed
-          ValueType: 1
-          Value: 2
-        - Name: ArrivalWaitTime
-          ValueType: 1
-          Value: 0.00999999978
-    TransformComponent:
-      Position: [1.29321945, 0.0517289639, -25.5390739]
-      Rotation: [0, 0, 0]
-      Scale: [8.69137287, 0.448509425, 6.63831329]
-    RelationshipComponent:
-      Parent: 0
-      Children:
-        []
-    PrefabComponent:
-      AssetID: 16437226629472056460
-      EntityIDInPrefab: 6083330774966169485
-      Flags: 0
-      Modified: false
-    MeshComponent:
-      Asset: 3956273168495549022
-      MaterialRegistry:
-        AnyOverrides: false
-        MaterialOverrides:
-          - 0: 0
-    BoxColliderComponent:
-      Extents: [4.34568644, 0.224254712, 3.31915665]
-      Offset: [0, 0, 0]
-      IsTrigger: false
-      AutoAdjustExtent: true
-    RigidbodyComponent:
-      BodyType: 1
-      Mass: 2
-      LockFlags: 0
   - Entity: 1408051840966362328
     Class: GameState
     TagComponent:
@@ -144,40 +100,6 @@ Entities:
       EntityIDInPrefab: 8587582154100024490
       Flags: 0
       Modified: false
-  - Entity: 13319261661467165738
-    Class: SpinningObstacle
-    TagComponent:
-      Tag: SpinningObstacleCI
-    ClassInformation:
-      LastPropertyCount: 1
-      Properties:
-        - Name: RotationSpeed
-          ValueType: 1
-          Value: 1
-    TransformComponent:
-      Position: [-9.33249378, 1.64108825, -4.12970018]
-      Rotation: [359.999939, 89.3713074, 359.999939]
-      Scale: [1, 1, 1]
-    RelationshipComponent:
-      Parent: 0
-      Children:
-        []
-    PrefabComponent:
-      AssetID: 6998695237874706194
-      EntityIDInPrefab: 11156330780195403735
-      Flags: 0
-      Modified: false
-    MeshComponent:
-      Asset: 12938012628514451478
-      MaterialRegistry:
-        AnyOverrides: false
-        MaterialOverrides:
-          - 0: 0
-          - 1: 0
-    RigidbodyComponent:
-      BodyType: 0
-      Mass: 2
-      LockFlags: 0
   - Entity: 9810729611277858228
     Class: Checkpoint
     TagComponent:
@@ -285,3 +207,42 @@ Entities:
       Direction: [0, 0, -1]
       ConeInner: 0
       ConeOuter: 0
+  - Entity: 17165617228056497004
+    Class: SpinningObstacle
+    TagComponent:
+      Tag: SpinningObstacleCI
+    ClassInformation:
+      LastPropertyCount: 1
+      Properties:
+        - Name: RotationSpeed
+          ValueType: 1
+          Value: 10
+    TransformComponent:
+      Position: [-9.14429283, 1.51623583, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RelationshipComponent:
+      Parent: 0
+      Children:
+        []
+    PrefabComponent:
+      AssetID: 6998695237874706194
+      EntityIDInPrefab: 11156330780195403735
+      Flags: 0
+      Modified: false
+    MeshComponent:
+      Asset: 12938012628514451478
+      MaterialRegistry:
+        AnyOverrides: false
+        MaterialOverrides:
+          - 0: 0
+          - 1: 0
+    BoxColliderComponent:
+      Extents: [3.83999991, 1.03999996, 0.610000014]
+      Offset: [0, 0, 0]
+      IsTrigger: false
+      AutoAdjustExtent: false
+    RigidbodyComponent:
+      BodyType: 2
+      Mass: 2
+      LockFlags: 63
